@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      CURP
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+     <ion-item>
+         <ion-label floating >Enter your CURP </ion-label>
+         <ion-input type="text" [(ngModel)]="user.curp"> </ion-input>
+        
+     </ion-item>
+     
+   
+   
+    </ion-list>
+    <div>
+        <button ion-button primary block style="background-color: rgb(33, 194, 235)" (click)="saveUser()"  > RESULTADO </button>
+      </div>
+
+   </ion-content>
+   
